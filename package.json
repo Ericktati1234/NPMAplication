@@ -1,0 +1,27 @@
+{
+  "name": "package_manager",
+  "version": "0.0.1",
+  "description": "APlicaciones de prueba de la clase de Web Plataforms.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha",
+    "lint": "./node_modules/.bin/eslint index.js",
+    "dev": "supervisor index.js"
+  },
+  "keywords": [
+    "web",
+    "uach",
+    "app",
+    "demo"
+  ],
+  "author": "Erick Nevarez",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^6.9.1"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "mocha": "^10.7.3"
+  }
+}
